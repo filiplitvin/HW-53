@@ -92,9 +92,10 @@ switch (currentSimbol) {
     console.log(numberOne * numberTwo);
     break;
   case "/":
-    console.log(numberOne / numberTwo);
     if (numberTwo === 0) {
       console.log("Помилка");
+      break;
     }
+    console.log(numberOne / numberTwo);
     break;
 }
